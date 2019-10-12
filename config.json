@@ -1,8 +1,8 @@
 {
-    "server":"my_server_ip",
-    "server_port":10086,
-    "local_port":1080,
-    "password":"barfoo!",
-    "timeout":600,
-    "method":"table"
+  "server": "120.78.188.69",
+  "server_port": 40307,
+  "local_port": 1081,
+  "method": "rc4-md5",
+  "password": "FsXBV4EQ",
+  "remarks": "HK-120.69"
 }

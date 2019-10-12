@@ -30,6 +30,8 @@ else:
     import json
 
 try:
+    if 'threading' in sys.modules:
+        raise ImportError('threading module loaded before patching!')
     import gevent
     import gevent.monkey
     gevent.monkey.patch_all(dns=gevent.version_info[0] >= 1)
