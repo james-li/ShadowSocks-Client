@@ -66,5 +66,8 @@ Ubuntu用户需检查是M2Crypto是否已经安装
 
 建议`Firefox`使用`AutoProxy`、`Chrome`使用`Proxy SwitchSharp`.
 
+===================================================================  
+增加`ssconf.py`，用户检测`gui-config.json`里的代理是否ok，同时支持pgfast的代理列表url
 
+`usage: ssconf.py [-h] [--pgfast PGFAST] [--conf CONF]`
 
